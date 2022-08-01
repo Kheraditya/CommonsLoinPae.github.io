@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset.welcome {
+    width: 40%;
+    height: 560px;
+    background-color: lightgray;
+}
+
+fieldset.login {
+    width: 61%;
+    background-color: white;
+}
+
+.welcome .welcome1 {
+    padding-top: 25px;
+    padding-left: 35px;
+    line-height: 15px;
+}
+
+.welcome .welcome2 {
+    position: absolute;
+    left: 190px;
+    bottom: 20px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.login .logo {
+    padding-left: 35%;
+    padding-top: 60px;
+    /* display: flex; */
+}
+
+.login .logo div {
+    position: absolute;
+    right: 365px;
+    top: 70px;
+    line-height: 0px;
+}
+
+.login .credentials {
+    width: 500px;
+    padding-left: 165px;
+    padding-top: 70px;
+    line-height: 30px;
+}
+
+.login .credentials p {
+    padding-left: 10px;
+}
+
+.login .credentials input {
+    border: none;
+    cursor: pointer;
+}
+
+.login .credentials .rememberme {
+    display: flex;
+}
+
+.login .credentials .rememberme a {
+    padding-left: 100px;
+}
+
+.login .credentials .button input {
+    padding-top: 13px;
+    padding-left: 60px;
+    display: flex;
+    background-color: rgb(93, 142, 210);
+    padding-right: 61px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.login .credentials h5 {
+    padding-left: 55px;
+}
